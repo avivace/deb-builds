@@ -1,4 +1,7 @@
 # deb-builds
+
+i3-gaps and chromium debian repository.
+
 My debian packages builds. Some of them are simply vanilla builds of (currently) unavailable software in the official repositories, while others are source packages built with custom/modified `rules` to fix or restore a functionality. 
 
 Refer to the package folder to find the exact details, the ready binaries and the scripts/rules files used to produce the builds. To install a binary, just download it and run `dpkg -i <package-name.deb>`.
@@ -28,7 +31,8 @@ Finally run `apt update`.
 ### i3-gaps
 Vanilla build of `i3-gaps`, from the git repository.
 
----
+
+## Further References
 
 #### Prefer versions from this repository instead of the already available ones
 
