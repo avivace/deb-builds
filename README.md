@@ -1,12 +1,14 @@
 # deb-builds
 
-i3-gaps and chromium debian repository.
+#### Sway, i3-gaps, chromium and wlc-dev repository and ready-to-install debian binaries.
+
+---
 
 My debian packages builds. Some of them are simply vanilla builds of (currently) unavailable software in the official repositories, while others are source packages built with custom/modified `rules` to fix or restore a functionality. 
 
-Refer to the package folder to find the exact details, the ready binaries and the scripts/rules files used to produce the builds. To install a binary, just download it and run `dpkg -i <package-name.deb>`.
+Check the package folder to find the exact details, the ready binaries and the scripts/rules files used to produce the builds. To install a binary, just download it and run `dpkg -i <package-name.deb>`.
 
-All of them are tested and currently used on my `buster/sid` systems.
+All of them are tested and currently used on my `Sid` systems.
 
 ## Repository
 Additionally, if you don't want to keep downloading binaries and manually install them, you can use my unofficial debian repository:
@@ -25,11 +27,17 @@ Finally run `apt update`.
 
 ## Packages
 
+### Sway
+Vanilla build from the git repository. Release (`-DCMAKE_BUILD_TYPE=Release`).
+
 ### Chromium - Hangouts
 (Debian) Chromium source package built with the `enable_hangout_services_extension` flag enabled. This allows the Google Hangouts screensharing feature to work correctly.
 
 ### i3-gaps
-Vanilla build of `i3-gaps`, from the git repository.
+Vanilla build from the git repository.
+
+### wlc-dev
+Development wlc libraries. Vanilla build from the git repository.
 
 
 ## Further References
