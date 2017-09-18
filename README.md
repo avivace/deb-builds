@@ -11,7 +11,7 @@ Check the package folder to find the exact details, the ready binaries and the s
 All of them are tested and currently used on my `Sid` systems.
 
 ## Repository
-Additionally, if you don't want to keep downloading binaries and manually install them, you can use my unofficial debian repository:
+If you don't want to keep downloading binaries and manually install them, you can use my unofficial debian repository:
 
 Add this line in your `/etc/apt/sources.list`
 ```
@@ -34,6 +34,9 @@ Vanilla build from the git repository. Release (`-DCMAKE_BUILD_TYPE=Release`).
 (Debian) Chromium source package built with the `enable_hangout_services_extension` flag enabled. This allows the Google Hangouts screensharing feature to work correctly.
 
 ### i3-gaps
+Vanilla build from the git repository.
+
+### OBS-Studio
 Vanilla build from the git repository.
 
 ### wlc-dev
