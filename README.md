@@ -1,12 +1,14 @@
 # deb-builds
 
-#### Sway, i3-gaps, chromium and wlc-dev repository and ready-to-install debian binaries.
+#### Sway, i3-gaps, chromium, obs and wlc-dev repository and ready-to-install debian binaries.
+
+Ready binaries to download are available in the [Releases](https://github.com/avivace/deb-builds/releases) page. Just run `dpkg -i <package-name.deb>` to install a package.
 
 ---
 
 My debian packages builds. Some of them are simply vanilla builds of (currently) unavailable software in the official repositories, while others are source packages built with custom/modified `rules` to fix or restore a functionality. 
 
-Check the package folder to find the exact details, the ready binaries and the scripts/rules files used to produce the builds. To install a binary, just download it and run `dpkg -i <package-name.deb>`.
+Check the package folder to find the exact details  and the scripts/rules files used to produce the builds.
 
 All of them are tested and currently used on my `Sid` systems.
 
