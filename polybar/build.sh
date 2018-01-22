@@ -4,6 +4,7 @@
 #cd polybar/build
 
 ## run from polybar/build
+## should depend on i3-wm too. Check i3-gaps package name.
 # git pull (?)
 cmake ..
 echo "A fast and easy-to-use status bar" >> description-pak
