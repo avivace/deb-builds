@@ -22,7 +22,7 @@ deb [arch=amd64] https://deb.avivace.com/ unstable main
 
 Add the repository as trusted:
 ```
-apt-key adv --keyserver keys.gnupg.net --recv-keys 9E78AF2A6AF2F3C7
+apt-key adv --keyserver pgp.key-server.io --recv-keys 9E78AF2A6AF2F3C7
 ```
 
 Finally run `apt update`.
